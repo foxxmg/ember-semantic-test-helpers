@@ -6,7 +6,7 @@
 
 Exposes semantic helpers based on https://github.com/emberjs/rfcs/pull/327 RFC
 
-The goal of this addon is to promote a path way to aria compatibility for ember applications and addons. while improving developer ergonomics.
+The goal of this addon is to promote a path way to aria compatibility for ember applications and addons, while improving developer ergonomics.
 
 An element must be perceivable to  **assistive technologies** in order to have a democratized internet.
 If an element is not perceivable then it is should not be perceivable to tests either.
@@ -72,7 +72,7 @@ If your element does not follow this spec we currently comes support 2 fallback 
 
 2. **invalidFor**, Not all elements are equal if your labels `[for=""]` targets an element that is not an HTML semantic form control, it is not aria compliant.
 
-if an element is found using a fallback strategy it is considered an error, the severity of that error can be configured. by default all rules are set to 1
+if an element is found using a fallback strategy, it is considered an error. The severity of that error can be configured by default and all rules are set to 1
 
 ```js
 import config from 'ember-semantic-test-helpers/test-support/config';
